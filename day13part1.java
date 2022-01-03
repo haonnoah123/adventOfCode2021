@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 class Main {
   public static void main(String[] args) {
-    ArrayList<String> str = new ArrayList<>();
+    ArrayList<String> str = new ArrayList<>(); 
     ArrayList<Points> point = new ArrayList<>();
     str = DataImporting.importFile("testData.txt");
     point = getPoints(str);
